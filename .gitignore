@@ -1,0 +1,67 @@
+# ---- C# / .NET ----
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.*
+*.ncb
+*.pdb
+*.cache
+*.log
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.lib
+*.so
+*.dylib
+
+# Dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET
+wwwroot/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments (Linux, macOS, Windows)
+venv/
+env/
+.venv/
+.env/
+ENV/
+Env/
+VENV/
+Venv/
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
