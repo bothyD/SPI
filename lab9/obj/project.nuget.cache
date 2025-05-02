@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "ziMd03Y24DU=",
+  "success": true,
+  "projectFilePath": "/home/kali/Desktop/SPI/lab9/lab9.csproj",
+  "expectedPackageFiles": [
+    "/home/kali/.nuget/packages/harfbuzzsharp/7.3.0.2/harfbuzzsharp.7.3.0.2.nupkg.sha512",
+    "/home/kali/.nuget/packages/harfbuzzsharp.nativeassets.macos/7.3.0.2/harfbuzzsharp.nativeassets.macos.7.3.0.2.nupkg.sha512",
+    "/home/kali/.nuget/packages/harfbuzzsharp.nativeassets.win32/7.3.0.2/harfbuzzsharp.nativeassets.win32.7.3.0.2.nupkg.sha512",
+    "/home/kali/.nuget/packages/oxyplot.core/2.2.0/oxyplot.core.2.2.0.nupkg.sha512",
+    "/home/kali/.nuget/packages/oxyplot.skiasharp/2.2.0/oxyplot.skiasharp.2.2.0.nupkg.sha512",
+    "/home/kali/.nuget/packages/skiasharp/2.88.8/skiasharp.2.88.8.nupkg.sha512",
+    "/home/kali/.nuget/packages/skiasharp.harfbuzz/2.88.8/skiasharp.harfbuzz.2.88.8.nupkg.sha512",
+    "/home/kali/.nuget/packages/skiasharp.nativeassets.linux/3.119.0/skiasharp.nativeassets.linux.3.119.0.nupkg.sha512",
+    "/home/kali/.nuget/packages/skiasharp.nativeassets.macos/2.88.8/skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
+    "/home/kali/.nuget/packages/skiasharp.nativeassets.win32/2.88.8/skiasharp.nativeassets.win32.2.88.8.nupkg.sha512"
+  ],
+  "logs": []
+}
