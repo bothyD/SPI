@@ -37,9 +37,12 @@ class Program
             queueLengths1.Add(smo1.QueueLength);
             queueLengths2.Add(smo2.QueueLength);
         }
-
+        if (!Directory.Exists("src"))
+        {
+            Directory.CreateDirectory("src");
+        }
         // Сохранение данных в CSV
-        File.WriteAllLines("queues.csv", new[] { "Step,Queue1,Queue2" }.Concat(
+        File.WriteAllLines("src/queues.csv", new[] { "Step,Queue1,Queue2" }.Concat(
             Enumerable.Range(0, queueLengths1.Count)
                       .Select(i => $"{i},{queueLengths1[i]},{queueLengths2[i]}")));
         Console.WriteLine("CSV-файл сохранён: queues.csv");
@@ -147,7 +150,7 @@ class Program
         {
             StartInfo = new ProcessStartInfo
             {
-                FileName = "python3", // или "python", в зависимости от твоей системы
+                FileName = "python", // или "python", в зависимости от твоей системы
                 Arguments = scriptName,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
