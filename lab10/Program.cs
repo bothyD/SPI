@@ -9,7 +9,7 @@ class Program
     static void Main(string[] args)
     {
         int simulationTime = 1000; // Время симуляции в миллисекундах
-        int maxIterations = 100; // Количество проходов
+        int maxIterations = 1000; // Количество проходов
         double serviceRate = 0.95; // Интенсивность обслуживания
         double arrivalRate = 1.0; // Интенсивность прихода
 
@@ -67,7 +67,7 @@ class Program
         }
 
         // Запись результатов в файл для Python
-        System.IO.File.WriteAllLines("queue_lengths.txt", new[]
+        System.IO.File.WriteAllLines("src/queue_lengths.txt", new[]
         {
             string.Join(",", regularQueueLengths),
             string.Join(",", poissonQueueLengths),

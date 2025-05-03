@@ -4,7 +4,7 @@ import os
 
 def main():
     # Чтение данных из CSV
-    data = pd.read_csv("queues.csv")
+    data = pd.read_csv("src/queues.csv")
 
     # Построение графика
     plt.plot(data["Step"], data["Queue1"], label="СМО 1", color="red")

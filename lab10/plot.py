@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Чтение данных из файла
-with open('queue_lengths.txt', 'r') as f:
+with open('src/queue_lengths.txt', 'r') as f:
     data = f.readlines()
 
 # Преобразование строк в списки
